@@ -1,6 +1,11 @@
 {
-  "name": "Example Addon",
+  "name": "Static FOV",
   "uuid": "%uuid%",
-  "mainClass": "com.example.addon.ExampleAddon",
-  "transformerClass": "com.example.addon.ExampleAddonTransformer"
+  "description": "Disables all FOV changes, even with Sodium!",
+  "version": 1,
+  "author": "Charmante",
+  "category": 4,
+  "icon": "https://i.imgur.com/C5PDx8V.png",
+  "mainClass": "ga.kanou.staticfov.Addon",
+  "transformerClass": "ga.kanou.staticfov.MyAddonTransformer"
 }
